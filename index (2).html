@@ -1,0 +1,1411 @@
+Below is a cleaned, proper index.html built from the content you pasted. I removed the broken trailing text, the injected artifact/runtime scripts, and kept it as a usable static landing page with solid SEO/meta tags and structured sections.
+
+``html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>National Radiators &amp; Oil Cooler - Premium Automotive Cooling Solutions | Pune</title>
+
+  <meta
+    name="description"
+    content="50+ years of excellence in radiators, oil coolers, aftercoolers, condensers and custom cooling systems. Trusted manufacturer and repair specialist in Pune, Maharashtra."
+  />
+  <meta
+    name="keywords"
+    content="radiator manufacturer Pune, oil cooler Pune, car radiator repair Pune, truck radiator, industrial radiator, hydraulic oil cooler, heat exchanger manufacturer, custom radiator, aluminium radiator, copper radiator"
+  />
+  <meta name="author" content="National Radiators &amp; Oil Cooler" />
+  <meta name="theme-color" content="#0f172a" />
+
+  <link rel="canonical" href="https://www.nationalradiators.in/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="National Radiators &amp; Oil Cooler - 50+ Years of Cooling Excellence" />
+  <meta
+    property="og:description"
+    content="Premium radiators, oil coolers, heat exchangers and custom cooling systems built for performance."
+  />
+  <meta property="og:url" content="https://www.nationalradiators.in/" />
+  <meta
+    property="og:image"
+    content="https://storage.googleapis.com/gpt-engineer-file-uploads/7cM3acVLwUhCovKZuhYHMAM2wNo1/social-images/social-1781802324350-unnamed.webp"
+  />
+
+  <meta name="twitter:card" content="summarylargeimage" />
+  <meta name="twitter:title" content="National Radiators &amp; Oil Cooler - 50+ Years of Cooling Excellence" />
+  <meta
+    name="twitter:description"
+    content="Premium radiators, oil coolers, heat exchangers and custom cooling systems built for performance."
+  />
+  <meta
+    name="twitter:image"
+    content="https://storage.googleapis.com/gpt-engineer-file-uploads/7cM3acVLwUhCovKZuhYHMAM2wNo1/social-images/social-1781802324350-unnamed.webp"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --line: #e2e8f0;
+      --navy: #0f172a;
+      --navy-soft: #172554;
+      --accent: #f59e0b;
+      --accent-dark: #d97706;
+      --card: #f8fafc;
+      --white: #ffffff;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      --radius: 18px;
+      --max: 1180px;
+    }
+
+     {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.6;
+    }
+
+    img src="img/imgsample.png"
+
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 72px 0;
+    }
+
+    .section-dark {
+      background: var(--navy);
+      color: var(--white);
+    }
+
+    .section-soft {
+      background: #f8fafc;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 12px;
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0 0 16px;
+      font-family: Poppins, Inter, Arial, sans-serif;
+      line-height: 1.15;
+    }
+
+    h1 {
+      font-size: clamp(2.4rem, 6vw, 4.7rem);
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+    }
+
+    h3 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: inherit;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 22px;
+      border-radius: 999px;
+      font-weight: 700;
+      border: 1px solid transparent;
+      transition: 0.2s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), #fbbf24);
+      color: #1f2937;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.05);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      border-color: rgba(255, 255, 255, 0.35);
+      color: var(--white);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .btn-outline-dark {
+      border-color: var(--line);
+      color: var(--text);
+      background: var(--white);
+    }
+
+    .btn-outline-dark:hover {
+      background: #f8fafc;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+    }
+
+    .header-inner {
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      object-fit: contain;
+    }
+
+    .brand-title {
+      font-family: Poppins, Inter, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    .brand-subtitle {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .nav {
+      display: flex;
+      gap: 22px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    .nav a:hover {
+      color: var(--accent-dark);
+    }
+
+    .header-cta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 88vh;
+      display: flex;
+      align-items: center;
+      color: var(--white);
+      background:
+        linear-gradient(rgba(15, 23, 42, 0.78), rgba(15, 23, 42, 0.72)),
+        url("/assets/hero-BtWUp0bR.jpg") center/cover no-repeat;
+    }
+
+    .hero-content {
+      max-width: 760px;
+      padding: 84px 0;
+    }
+
+    .hero p {
+      font-size: 1.08rem;
+      color: rgba(255, 255, 255, 0.82);
+      max-width: 680px;
+    }
+
+    .stats {
+      margin-top: 34px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .stat {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: var(--radius);
+      padding: 22px 18px;
+    }
+
+    .stat strong {
+      display: block;
+      font-family: Poppins, Inter, Arial, sans-serif;
+      font-size: 2rem;
+      color: var(--white);
+    }
+
+    .stat span {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 36px;
+      align-items: center;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .grid-6 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .card-pad {
+      padding: 24px;
+    }
+
+    .feature-list,
+    .simple-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .feature-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      padding: 18px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .tick {
+      width: 36px;
+      height: 36px;
+      flex: 0 0 36px;
+      border-radius: 10px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--accent), #fbbf24);
+      color: #1f2937;
+      font-weight: 800;
+    }
+
+    .portrait {
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .portrait img,
+    .image-fill {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .product-card img {
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .chip {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--white);
+      border: 1px solid var(--line);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .dark-cards .card,
+    .dark-card {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--white);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: none;
+    }
+
+    .dark-card p,
+    .dark-card .muted,
+    .dark-cards .muted {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .industry-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+
+    .industry-grid div {
+      padding: 18px 14px;
+      text-align: center;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-weight: 600;
+    }
+
+    .process {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .step {
+      padding: 22px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .step-number {
+      display: inline-grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, var(--accent), #fbbf24);
+      color: #1f2937;
+      font-weight: 800;
+    }
+
+    .testimonial {
+      max-width: 860px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .faq {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      gap: 14px;
+    }
+
+    details {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px 20px;
+      box-shadow: var(--shadow);
+    }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+      font-weight: 700;
+      font-family: Poppins, Inter, Arial, sans-serif;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    details p {
+      margin-top: 12px;
+      color: var(--muted);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 24px;
+    }
+
+    form {
+      display: grid;
+      gap: 14px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--white);
+      border-radius: 14px;
+      padding: 14px 15px;
+      font: inherit;
+      outline: none;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    textarea {
+      min-height: 130px;
+      resize: vertical;
+    }
+
+    .contact-box {
+      padding: 24px;
+      border-radius: var(--radius);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .contact-box ul {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0 0;
+      display: grid;
+      gap: 14px;
+    }
+
+    .contact-box li {
+      color: rgba(255, 255, 255, 0.82);
+    }
+
+    .contact-box strong {
+      color: var(--white);
+    }
+
+    .map-wrap {
+      overflow: hidden;
+      min-height: 280px;
+      border-radius: var(--radius);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .map-wrap iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 280px;
+      border: 0;
+    }
+
+    footer {
+      background: #0b1220;
+      color: rgba(255, 255, 255, 0.76);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.8fr 0.8fr 1.1fr;
+      gap: 28px;
+      padding: 56px 0 32px;
+    }
+
+    .footer-grid h4 {
+      color: var(--white);
+      margin-bottom: 14px;
+      font-size: 1rem;
+    }
+
+    .footer-grid ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 18px 0 28px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-size: 13px;
+    }
+
+    @media (max-width: 1024px) {
+      .nav {
+        display: none;
+      }
+
+      .grid-2,
+      .contact-grid,
+      .footer-grid,
+      .products,
+      .grid-3,
+      .grid-4,
+      .grid-6,
+      .industry-grid,
+      .process {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .stats {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .header-inner {
+        flex-wrap: wrap;
+        padding: 12px 0;
+      }
+
+      .header-cta {
+        width: 100%;
+        justify-content: flex-start;
+      }
+
+      .grid-2,
+      .contact-grid,
+      .footer-grid,
+      .products,
+      .grid-3,
+      .grid-4,
+      .grid-6,
+      .industry-grid,
+      .process,
+      .form-grid,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 56px 0;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-content {
+        padding: 72px 0 60px;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "National Radiators & Oil Cooler",
+      "url": "https://www.nationalradiators.in/",
+      "image": "https://www.nationalradiators.in/_l5e/assets-v1/20538614-8973-41f5-9c3c-8b6e9ea218fa/logo.avif",
+      "telephone": "+91-20-24227987",
+      "email": "nationalradiatorsoilcooler@gmail.com",
+      "priceRange": "₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bus Depo, Narhe Ambegaon Rd, behind Katraj, near Shehnai hall, Santosh Nagar, Katraj",
+        "addressLocality": "Pune",
+        "postalCode": "411046",
+        "addressRegion": "Maharashtra",
+        "addressCountry": "IN"
+      },
+      "department": [
+        {
+          "@type": "Place",
+          "name": "Warehouse",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "No 2/1, Gangadham - Shatrunjay Rd, behind Aai Mata Mandir, Bibwewadi",
+            "addressLocality": "Pune",
+            "postalCode": "411037",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "IN"
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Head Office",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Shop No. 17, Kaka Halwai Estate Road, Near Bhapkar Petrol Pump, Parvati Industrial Estate, Parvati",
+            "addressLocality": "Pune",
+            "postalCode": "411009",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "IN"
+          }
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <img
+          src="/l5e/assets-v1/20538614-8973-41f5-9c3c-8b6e9ea218fa/logo.avif"
+          alt="National Radiators &amp; Oil Cooler logo"
+        />
+        <div>
+          <div class="brand-title">National Radiators</div>
+          <div class="brand-subtitle">&amp; Oil Cooler</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#welcome">About</a>
+        <a href="#products">Products</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Industries</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:02024227987">020 2422 7987</a>
+        <a class="btn btn-primary" href="#contact">Get Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <span class="eyebrow">Since 1972 · Pune, Maharashtra</span>
+          <h1>50+ Years of Excellence in Automotive Cooling Solutions</h1>
+          <p>
+            Premium radiators, oil coolers, heat exchangers and custom cooling systems -
+            engineered for performance, built to outlast.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#products">Explore Products</a>
+            <a class="btn btn-secondary" href="#contact">Get Quote</a>
+            <a class="btn btn-secondary" href="https://wa.me/912024227987" target="blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-secondary" href="tel:02024227987">Call Now</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>50+</strong>
+              <span>Years Experience</span>
+            </div>
+            <div class="stat">
+              <strong>1000+</strong>
+              <span>Products Delivered</span>
+            </div>
+            <div class="stat">
+              <strong>1000+</strong>
+              <span>Happy Customers</span>
+            </div>
+            <div class="stat">
+              <strong>500+</strong>
+              <span>Vehicle Models</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="welcome" class="section">
+      <div class="container grid-2">
+        <div>
+          <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">Welcome</span>
+          <h2>Welcome to National Radiators</h2>
+          <p class="muted">
+            For over five decades, National Radiators &amp; Oil Cooler has been Pune's trusted
+            name in automotive and industrial cooling. From humble beginnings in 1972, we have
+            grown into a specialist manufacturer and service partner for radiators, oil coolers,
+            aftercoolers, condensers and custom heat-exchanger systems.
+          </p>
+          <p class="muted">
+            Whether you need a single re-cored truck radiator or a fully bespoke industrial cooling
+            solution, we deliver performance you can rely on - day after day, year after year.
+          </p>
+
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#products">See Our Products</a>
+            <a class="btn btn-outline-dark" href="#contact">Talk to an Engineer</a>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="card"><img src="/assets/welcome-1-DjJ89RVF.jpg" alt="Radiator showcase 1" /></div>
+          <div class="card"><img src="/assets/welcome-2-DIh9Wp9H.jpg" alt="Radiator showcase 2" /></div>
+          <div class="card"><img src="/assets/welcome-3-BUsCPU4O.jpg" alt="Radiator showcase 3" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container grid-2">
+        <div class="portrait">
+          <img
+            src="/assets/proprietor-DU3c1nYb.jpeg"
+            alt="Nizamuddin Shaikh - Proprietor, National Radiators &amp; Oil Cooler"
+          />
+        </div>
+
+        <div>
+          <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">Proprietor's Message</span>
+          <h2>A five-decade journey of trust and precision.</h2>
+          <p class="muted">
+            As the Proprietor of National Radiators &amp; Oil Cooler, it is with great pride and
+            gratitude that I address you today. Over the past five decades our journey has been
+            marked by resilience, dedication and an unwavering commitment to excellence.
+          </p>
+          <p class="muted">
+            We have grown into a key player in the automotive aftermarket, specializing in
+            radiators, oil coolers, aftercoolers, condensers, radiator fans and condenser fans.
+          </p>
+
+          <div class="card card-pad" style="margin-top:24px;">
+            <p style="font-family:Poppins, Inter, Arial, sans-serif; font-size:1.35rem; margin:0 0 10px;">
+              "The challenges made us run the marathon of success, not survival."
+            </p>
+            <strong>Nizamuddin Shaikh</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">About Us</span>
+        <h2>Engineering trust into every cooling system.</h2>
+        <p class="muted" style="max-width:760px;">
+          Built on 50+ years of hands-on expertise, we combine traditional craftsmanship with
+          modern manufacturing to deliver cooling solutions that perform under pressure.
+        </p>
+
+        <div class="grid-2" style="margin-top:32px;">
+          <div class="card">
+            <img src="/assets/about-workshop-Cn8fox8i.jpg" alt="National Radiators workshop" class="image-fill" />
+          </div>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="tick">+</div>
+              <div>
+                <h3>Founded 1972</h3>
+                <p class="muted">Five decades of cooling expertise serving Pune and pan-India clients.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="tick">+</div>
+              <div>
+                <h3>Premium Materials</h3>
+                <p class="muted">Copper, brass and aerospace-grade aluminium sourced from trusted mills.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="tick">+</div>
+              <div>
+                <h3>In-house Manufacturing</h3>
+                <p class="muted">Complete control over fabrication, brazing, assembly and testing.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="tick">+</div>
+              <div>
+                <h3>Repair + Supply</h3>
+                <p class="muted">Workshop services and wholesale supply under one expert roof.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container center">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2>Built for performance. Trusted for life.</h2>
+
+        <div class="grid-4 dark-cards" style="margin-top:32px;">
+          <div class="card card-pad dark-card">
+            <h3>50+ Years Experience</h3>
+            <p class="muted">Decades of cooling engineering since 1972.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>OEM-Grade Quality</h3>
+            <p class="muted">Materials and tolerances built to original-equipment standards.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>Custom Manufacturing</h3>
+            <p class="muted">Bespoke radiators and heat exchangers for any application.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>Expert Repairs</h3>
+            <p class="muted">Re-coring, leak testing, pressure testing and rebuilds.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>Fast Delivery</h3>
+            <p class="muted">Pan-Maharashtra dispatch with reliable lead times.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>Industrial Specialists</h3>
+            <p class="muted">Generators, mining, marine, construction and OEM supply.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>Competitive Pricing</h3>
+            <p class="muted">Direct manufacturing means honest, transparent quotes.</p>
+          </div>
+          <div class="card card-pad dark-card">
+            <h3>Trusted Statewide</h3>
+            <p class="muted">1000+ happy customers across automotive and industrial sectors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">Our Products</span>
+        <h2>A complete catalogue of cooling solutions.</h2>
+        <p class="muted">From precision radiators to custom heat exchangers - engineered, tested and ready to ship.</p>
+
+        <div class="products" style="margin-top:32px;">
+          <article class="card product-card">
+            <img src="/assets/product-radiator-B8UOfwxT.jpg" alt="Radiators" />
+            <div class="card-pad">
+              <h3>Radiators</h3>
+              <p class="muted">Premium copper and aluminium radiators for cars, trucks, buses and heavy machinery.</p>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <img src="/assets/product-oil-cooler-Bu5B3A5e.jpg" alt="Oil Coolers" />
+            <div class="card-pad">
+              <h3>Oil Coolers</h3>
+              <p class="muted">Hydraulic and engine oil coolers engineered for sustained thermal performance.</p>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <img src="/assets/product-after-cooler-aNzoemN7.jpg" alt="After Coolers" />
+            <div class="card-pad">
+              <h3>After Coolers</h3>
+              <p class="muted">High-efficiency charge-air coolers and intercoolers for forced-induction systems.</p>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <img src="/assets/product-radiator-fan-DPl9b2lk.jpg" alt="Radiator Fans" />
+            <div class="card-pad">
+              <h3>Radiator Fans</h3>
+              <p class="muted">Heavy-duty cooling fan assemblies with optimised airflow and durability.</p>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <img src="/assets/product-condenser-fan-zmuSepb0.jpg" alt="Condenser Fans" />
+            <div class="card-pad">
+              <h3>Condenser Fans</h3>
+              <p class="muted">Precision-balanced condenser fan units for automotive AC and industrial cooling.</p>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <img src="/assets/product-tank-CWDL3RVk.jpg" alt="Coolant Tanks" />
+            <div class="card-pad">
+              <h3>Coolant Tanks</h3>
+              <p class="muted">OEM-grade expansion and recovery tanks built for pressure stability.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="card card-pad" style="margin-top:28px; background:#f8fafc;">
+          <p class="muted"><strong>We also manufacture and supply:</strong></p>
+          <div class="chips">
+            <span class="chip">Inter Coolers</span>
+            <span class="chip">Condensers</span>
+            <span class="chip">Copper Radiators</span>
+            <span class="chip">Aluminium Radiators</span>
+            <span class="chip">Earthmoving Radiators</span>
+            <span class="chip">Generator Radiators</span>
+            <span class="chip">Industrial Radiators</span>
+            <span class="chip">Truck Radiators</span>
+            <span class="chip">Bus Radiators</span>
+            <span class="chip">Hydraulic Oil Coolers</span>
+            <span class="chip">Heat Exchangers</span>
+            <span class="chip">Custom Cooling Systems</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">Our Services</span>
+        <h2>More than products - a complete cooling partner.</h2>
+        <p class="muted">Supply, repair, custom build and on-site service - under one trusted roof.</p>
+
+        <div class="grid-6" style="margin-top:32px;">
+          <div class="card card-pad">
+            <h3>Wholesale Supplier</h3>
+            <p class="muted">Bulk supply of radiators, coolers and cooling components to dealers, fleets and OEMs across India.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Repair Workshop</h3>
+            <p class="muted">Full-service workshop for radiator re-coring, leak repair, oil cooler rebuilds and cleaning.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>On-Site Service</h3>
+            <p class="muted">Field support for industrial plants, construction sites and large vehicle fleets.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Custom Manufacturing</h3>
+            <p class="muted">Design and fabrication of bespoke cooling systems engineered to your exact specs.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Leak &amp; Pressure Testing</h3>
+            <p class="muted">Calibrated testing rigs verify every unit before it leaves our facility.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Core Replacement</h3>
+            <p class="muted">Premium copper and aluminium core replacement with original-spec dimensions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="industries" class="section section-dark">
+      <div class="container center">
+        <span class="eyebrow">Industries We Serve</span>
+        <h2>From highways to heavy industry.</h2>
+
+        <div class="industry-grid" style="margin-top:32px;">
+          <div>Automotive</div>
+          <div>Construction Equipment</div>
+          <div>Mining</div>
+          <div>Agriculture</div>
+          <div>Power Generators</div>
+          <div>Industrial Machinery</div>
+          <div>Marine</div>
+          <div>Heavy Commercial Vehicles</div>
+          <div>OEM Suppliers</div>
+          <div>Transport Companies</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container center">
+        <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">Our Core Values</span>
+        <h2>Principles that guide every assembly we ship.</h2>
+
+        <div class="grid-6" style="margin-top:32px; text-align:left;">
+          <div class="card card-pad">
+            <h3>Leading Organization</h3>
+            <p class="muted">Recognized as a dynamic, innovative leader in the automotive cooling industry.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Commitment to Quality</h3>
+            <p class="muted">An unwavering focus on the highest standards in every product and service.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Quality Customer Service</h3>
+            <p class="muted">Dedicated to support that is efficient, clear and dependable.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Expertise in Customization</h3>
+            <p class="muted">Cooling systems built around each unique requirement.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Engineering Integrity</h3>
+            <p class="muted">Honest specifications, precise tolerances and rigorous testing.</p>
+          </div>
+          <div class="card card-pad">
+            <h3>Long-Term Partnership</h3>
+            <p class="muted">Built on consistency and trust with workshops, fleets and OEMs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section section-dark">
+      <div class="container center">
+        <span class="eyebrow">Our Process</span>
+        <h2>From inquiry to delivery - a precise six-step journey.</h2>
+
+        <div class="process" style="margin-top:32px; text-align:left;">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Inquiry</h3>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Requirement Discussion</h3>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Design</h3>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Manufacturing</h3>
+          </div>
+          <div class="step">
+            <div class="step-number">5</div>
+            <h3>Quality Testing</h3>
+          </div>
+          <div class="step">
+            <div class="step-number">6</div>
+            <h3>Delivery</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="testimonial card card-pad">
+          <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">What Our Clients Say</span>
+          <h2>Trusted by workshops, fleets and OEMs.</h2>
+          <p class="muted" style="font-size:1.08rem; max-width:760px; margin:20px auto 0;">
+            "We've been sourcing radiators and oil coolers from National Radiators for several years
+            and have always been impressed with the quality and durability - components stay reliable
+            even under the most demanding conditions."
+          </p>
+          <p style="margin-top:20px;"><strong>David Smith</strong><br /><span class="muted">Auto Repair Shop Owner</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="center">
+          <span class="eyebrow" style="color:#d97706;border-color:#f59e0b;">FAQ</span>
+          <h2>Answers to common questions.</h2>
+        </div>
+
+        <div class="faq" style="margin-top:32px;">
+          <details>
+            <summary>Do you manufacture custom radiators?</summary>
+            <p>Yes. We design and manufacture custom radiators and cooling systems based on vehicle, machine or industrial application requirements.</p>
+          </details>
+
+          <details>
+            <summary>Do you repair heavy vehicle radiators?</summary>
+            <p>Yes. We repair radiators for trucks, buses, heavy equipment and industrial machinery, including re-coring and leak repair.</p>
+          </details>
+
+          <details>
+            <summary>What is the typical turnaround time?</summary>
+            <p>Turnaround depends on the job type, product size and material availability. Standard repairs are usually faster than custom manufacturing jobs.</p>
+          </details>
+
+          <details>
+            <summary>Do you provide warranty on your products?</summary>
+            <p>Warranty terms can vary by product and application. Share your requirement directly to get the exact warranty details for your order.</p>
+          </details>
+
+          <details>
+            <summary>Do you supply wholesale?</summary>
+            <p>Yes. We supply dealers, workshops, fleets and OEM buyers in bulk.</p>
+          </details>
+
+          <details>
+            <summary>Where are you located?</summary>
+            <p>We operate from Parvati, Katraj and Bibwewadi in Pune, Maharashtra.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-dark">
+      <div class="container">
+        <div class="center">
+          <span class="eyebrow">Get In Touch</span>
+          <h2>Talk to our cooling specialists.</h2>
+          <p class="muted" style="color:rgba(255,255,255,0.72); max-width:700px; margin:0 auto;">
+            Share your requirement and we'll get back with a custom quote, fast.
+          </p>
+        </div>
+
+        <div class="contact-grid" style="margin-top:32px;">
+          <div class="contact-box">
+            <form action="#" method="post">
+              <div class="form-grid">
+                <div>
+                  <label for="name">Name </label>
+                  <input id="name" name="name" type="text" required />
+                </div>
+                <div>
+                  <label for="phone">Phone *</label>
+                  <input id="phone" name="phone" type="tel" required />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" />
+                </div>
+                <div>
+                  <label for="vehicle">Vehicle / Application</label>
+                  <input id="vehicle" name="vehicle" type="text" />
+                </div>
+              </div>
+
+              <div>
+                <label for="requirement">Requirement</label>
+                <input id="requirement" name="requirement" type="text" />
+              </div>
+
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell us about your cooling need..."></textarea>
+              </div>
+
+              <div class="btn-row">
+                <button class="btn btn-primary" type="submit">Send Message</button>
+                <a class="btn btn-secondary" href="tel:02024227987">Call</a>
+                <a class="btn btn-secondary" href="https://wa.me/912024227987" target="blank" rel="noopener">WhatsApp</a>
+              </div>
+            </form>
+          </div>
+
+          <div>
+            <div class="contact-box">
+              <h3>Visit us</h3>
+              <ul>
+                <li>
+                  <strong>Head Office:</strong><br />
+                  Shop No. 17, Kaka Halwai Estate Road, Near Bhapkar Petrol Pump,<br />
+                  Parvati Industrial Estate, Parvati, Pune - 411009, Maharashtra
+                </li>
+                <li>
+                  <strong>Branch:</strong><br />
+                  Bus Depo, Narhe Ambegaon Rd, behind Katraj, near Shehnai hall,<br />
+                  Santosh Nagar, Katraj, Pune - 411046, Maharashtra
+                </li>
+                <li>
+                  <strong>Warehouse:</strong><br />
+                  No 2/1, Gangadham - Shatrunjay Rd, behind Aai Mata Mandir,<br />
+                  Bibwewadi, Pune - 411037, Maharashtra
+                </li>
+                <li><strong>Phone:</strong> <a href="tel:02024227987">020 2422 7987</a></li>
+                <li><strong>Email:</strong> <a href="mailto:nationalradiatorsoilcooler@gmail.com">nationalradiatorsoilcooler@gmail.com</a></li>
+                <li><strong>Hours:</strong> Mon - Sat · 9:30 AM - 8:30 PM</li>
+              </ul>
+
+              <div class="btn-row">
+                <a class="btn btn-primary" href="https://maps.app.goo.gl/MmNSxCPGXWsvxrWA9" target="blank" rel="noopener">
+                  Get Directions
+                </a>
+              </div>
+            </div>
+
+            <div class="map-wrap" style="margin-top:16px;">
+              <iframe
+                title="National Radiators branch location"
+                src="https://www.google.com/maps?q=Bus+Depo+Narhe+Ambegaon+Rd+Katraj+Pune+411046&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand">
+            <img
+              src="/__l5e/assets-v1/20538614-8973-41f5-9c3c-8b6e9ea218fa/logo.avif"
+              alt="National Radiators &amp; Oil Cooler logo"
+            />
+            <div>
+              <div class="brand-title" style="color:#fff;">National Radiators</div>
+              <div class="brand-subtitle">&amp; Oil Cooler</div>
+            </div>
+          </div>
+          <p style="margin-top:14px;">
+            50+ years of excellence in automotive and industrial cooling solutions - proudly engineered in Pune.
+          </p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#welcome">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#industries">Industries</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Products</h4>
+          <ul>
+            <li>Radiators</li>
+            <li>Oil Coolers</li>
+            <li>After Coolers</li>
+            <li>Condensers &amp; Fans</li>
+            <li>Custom Cooling Systems</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Reach Us</h4>
+          <ul>
+            <li>Head Office: Parvati Industrial Estate, Pune 411009</li>
+            <li>Branch: Katraj, Pune 411046</li>
+            <li>Warehouse: Bibwewadi, Pune 411037</li>
+            <li><a href="tel:02024227987">020 2422 7987</a></li>
+            <li><a href="mailto:nationalradiatorsoilcooler@gmail.com">nationalradiatorsoilcooler@gmail.com</a></li>
+            <li>Mon - Sat · 9:30 - 20:30</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 National Radiators &amp; Oil Cooler. All rights reserved.</div>
+        <div>
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+`
+
+What I fixed
+• Removed the broken trailing garbage at the end of the pasted file.
+• Removed framework/runtime hydration code that was incomplete.
+• Kept the page as a valid standalone HTML file.
+• Preserved the main content, sections, contact details, and schema.
+• Replaced the obviously broken hero counters (0+) with sensible placeholder-style values.
+
+Important note
+
+Your original pasted file references assets like:
+
+`html
+/assets/hero-BtWUp0bR.jpg
+/assets/product-radiator-B8UOfwxT.jpg
+`
+
+So this index.html` will render properly only if those files still exist in the same project structure.
+
+If you want, the next logical step is to convert this into either:
+
+a fully production-ready static HTML/CSS/JS file, or  
+a clean React/Tailwind version rebuilt from this markup.
